@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>mpdy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css">
+    <link rel="stylesheet" href="css/mbox.css">
+  </head>
+  <body>      
+    <!-- Home -->
+    <div data-role="page" id="page1">
+      <div data-theme="a" data-role="header">
+        <h3 id="output">
+            mpdy
+        </h3>
+      </div>
+      <div data-role="content">
+        <ul id="playlists" data-role="listview" data-inset="false" data-filter="false"></ul>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+          Footer
+        </h3>
+      </div>
+    </div>
+    <script src="http://musicbox.local/mopidy/mopidy.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/vendor/jquery.mobile-1.3.2.min.js"></script>        
+    <script src="js/main.js"></script>
+  </body>
+</html>
